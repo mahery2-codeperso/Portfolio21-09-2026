@@ -6,8 +6,9 @@ html {
 body {
     font-family: Helvetica;
     margin : 0;
+    transition: all 0.235s ease;
 }
-
+/* ------------------------------------------ HEADER -------------------------------------------------- */
 header {
     background-color: rgb(23, 18, 66);
     color : white;
@@ -50,4 +51,22 @@ nav h2 {
 
 nav h2:hover {
     box-shadow: 0 0 10px #9b9a9a;
+}
+
+.theme {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: white;
+    margin : auto;
+}
+
+.theme:hover {
+    box-shadow: 0 0 10px #9b9a9a;
+}
+
+/* ----------------------------------------------- main -------------------------------------------- */
+
+main {
+    margin : 0 0 0 1rem;
 }
