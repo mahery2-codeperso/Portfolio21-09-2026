@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+html {
+    margin : 0;
+}
+body {
+    font-family: Helvetica;
+    margin : 0;
+}
+
+header {
+    background-color: rgb(23, 18, 66);
+    color : white;
+    
+}
+
+/*
+.logo {
+
+}
+*/
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.top img {
+    height: 3.75rem;
+    width: auto;
+    border-radius: 1.75rem;
+    margin : auto 0 auto 0;
+    transition : box-shadow 0.235s ease;
+}
+
+.top img:hover {
+    box-shadow: 0 0 10px #9b9a9a;
+}
+
+nav {
+    display: flex;
+    gap : 1rem;
+}
+
+nav h2 {
+    text-align: right;
+    transition : box-shadow 0.235s ease;
+}
+
+nav h2:hover {
+    box-shadow: 0 0 10px #9b9a9a;
+}
