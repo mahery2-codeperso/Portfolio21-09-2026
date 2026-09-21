@@ -49,9 +49,11 @@ nav h2 {
     transition : box-shadow 0.235s ease;
 }
 
+/*
 nav h2:hover {
     box-shadow: 0 0 10px #9b9a9a;
 }
+*/
 
 .theme {
     width: 3rem;
